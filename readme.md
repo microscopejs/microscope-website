@@ -1,2 +1,2 @@
-microscopejs website
-====================
+microscope-web website
+======================
