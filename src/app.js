@@ -14,6 +14,9 @@ var StartUp = require('./startUp');
 // Application modules
 require('./components/home/home');
 require('./components/docs/docs');
+require('./components/server/server');
+require('./components/mobile/mobile');
+require('./components/frontend/frontend');
 
 // Injection
 var app = angular.module('app', [
@@ -21,7 +24,10 @@ var app = angular.module('app', [
 	'ngRoute',
 	'hc.marked',
 	'app.home',
-	'app.docs'
+	'app.docs',
+	'app.mobile',
+	'app.server',
+	'app.frontend'
 ]);
 
 app.config(['$routeProvider', Router]);
