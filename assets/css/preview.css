@@ -57,6 +57,18 @@
   height: 573px;
 }
 
+.device-lumia950{
+  width: 400px;
+  height: 771px;
+}
+
+.iframe-lumia950 {
+  top: 60px;
+  left: 10px;
+  width: 381px;
+  height: 643px;
+}
+
 .device-ipad{
   width: 1024px;
   height: 814px;
