@@ -24,6 +24,10 @@ function Router($routeProvider) {
 		.when('/mobile', {
 			templateUrl: '/components/mobile/controllers/mobile.html'
 		})
+		
+		.when('/preview/:id', {
+			templateUrl: '/components/preview/controllers/preview.html'
+		})
 
 		.otherwise({ redirectTo: '/' });
 }

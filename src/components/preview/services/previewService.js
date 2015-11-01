@@ -22,7 +22,8 @@ PreviewService.prototype.getAll = function () {
  * Get data by id
  */
 PreviewService.prototype.get = function (id) {
-	return _.findWhere(data.starters,{id:id});
+	var idStarter = parseInt(id);
+	return _.findWhere(data.starters,{'id':idStarter});
 };
 
 module.exports = PreviewService;

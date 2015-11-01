@@ -1,0 +1,70 @@
+
+.stores {
+  position: relative;
+  text-align: center;
+}
+
+.btn-settings{
+  position: absolute;
+  top:0;
+  left:0; 
+}
+
+.device{
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+
+  
+.iframe {
+  position: absolute;
+  background: #fff;
+  border: none;
+
+}
+
+.loading {
+  background-color: #4FABD9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.device-htc{
+  width: 400px;
+  height: 795px;
+}
+
+.iframe-htc {
+  top: 85px;
+  left: 34px;
+  width: 332px;
+  height: 580px;
+}
+
+.device-iphone6plus{
+  width: 400px;
+  height: 795px;
+}
+
+.iframe-iphone6plus {
+  top: 118px;
+  left: 41px;
+  width: 322px;
+  height: 573px;
+}
+
+.device-ipad{
+  width: 1024px;
+  height: 814px;
+}
+
+.iframe-ipad {
+  top: 99px;
+  left: 93px;
+  width: 826px;
+  height: 615px;
+}
