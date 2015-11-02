@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "microscopejs website",
   "scripts": {
-    "start": "gulp",
+    "start": "gulp serve",
     "test": "gulp test"
   },
   "author": "Benjamin Heintz",
