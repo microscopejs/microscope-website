@@ -21,6 +21,7 @@ require('./components/docs/docs');
 require('./components/server/server');
 require('./components/mobile/mobile');
 require('./components/frontend/frontend');
+require('./components/team/team');
 
 // Injection
 var app = angular.module('app', [
@@ -34,7 +35,8 @@ var app = angular.module('app', [
 	'app.server',
 	'app.frontend',
 	'app.preview',
-	'app.starterkit'
+	'app.starterkit',
+	'app.team'
 ]);
 
 app.config(['$routeProvider', Router]);

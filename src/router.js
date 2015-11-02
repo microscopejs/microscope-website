@@ -24,13 +24,17 @@ function Router($routeProvider) {
 		.when('/mobile', {
 			templateUrl: '/components/mobile/controllers/mobile.html'
 		})
-		
+
 		.when('/preview/:id', {
 			templateUrl: '/components/preview/controllers/preview.html'
 		})
-		
+
 		.when('/detail/:id', {
 			templateUrl: '/components/starterkit/controllers/detail.html'
+		})
+
+		.when('/team', {
+			templateUrl: '/components/team/controllers/team.html'
 		})
 
 		.otherwise({ redirectTo: '/' });
