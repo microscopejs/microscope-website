@@ -1,16 +1,18 @@
-
 <div class="row">
-<div class="col-md-4" ng-repeat="starter in starters">
-	<div class="panel panel-primary text-center">
-		<div class="panel-heading">{{starter.name}}</div>
-		<div class="panel-body">
-			<a href="{{githug}}">
-				<img src="/images/{{starter.image}}" alt="">
-			</a>
-		</div>
-		<div class="panel-footer">
-			<a  class="btn btn-primary" href="#/detail/{{starter.id}}">Détails</a></div>
-	
+	<div class="col-md-12">
+		<input type="text" class="form-control" ng-model="searchText" placeholder="Search starter kits"><br>
 	</div>
-</div>
+	<div class="col-md-4" ng-repeat="starter in starters | filter: {name:searchText}">
+		<div class="panel panel-primary text-center">
+			<div class="panel-heading">{{starter.name}}</div>
+			<div class="panel-body">
+				<a href="{{githug}}">
+					<img src="/images/{{starter.image}}" alt="">
+				</a>
+			</div>
+			<div class="panel-footer">
+				<a class="btn btn-primary" href="#/detail/{{starter.id}}">Détails</a>
+			</div>
+		</div>
+	</div>
 </div>
