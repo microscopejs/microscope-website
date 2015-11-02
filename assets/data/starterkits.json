@@ -1,7 +1,7 @@
 [
   {
     "id": "mobile-ionic-blank",
-    "name": "Starter ionic Blank",
+    "name": "Ionic Blank",
     "category": "mobile",
     "description": "Ionic application",
     "image":"ionic.jpg",
@@ -11,7 +11,7 @@
   }
  , {
     "id": "mobile-ionic-sidemenu",
-    "name": "Starter ionic Side Menu",
+    "name": "Ionic Side Menu",
     "category": "mobile",
     "description": "Ionic application",
     "image":"ionic.jpg",
@@ -21,7 +21,7 @@
   }
  , {
     "id": "mobile-ionic-tabs",
-    "name": "Starter ionic Tabs",
+    "name": "Ionic Tabs",
     "category": "mobile",
     "description": "Ionic application",
     "image":"ionic.jpg",
@@ -32,7 +32,7 @@
   }
   , {
     "id": "mobile-ionic-maps",
-    "name": "Starter ionic Maps",
+    "name": "Ionic Maps",
     "category": "mobile",
     "description": "Ionic application",
     "image":"ionic.jpg",
@@ -42,7 +42,7 @@
   }
   , {
     "id": "mobile-ionic-firebase",
-    "name": "Starter ionic Firebase",
+    "name": "Ionic Firebase",
     "category": "mobile",
     "description": "Ionic application",
     "image":"ionic.jpg",
@@ -51,17 +51,17 @@
     "readme":"https://raw.githubusercontent.com/microscope-mobile/ionic-firebase/master/README.md"
   }, {
     "id": "mobile-winjs-navbar",
-    "name": "Starter winjs Navbar",
+    "name": "WinJS Navbar",
     "category": "mobile",
     "description": "Ionic application",
     "image":"winjs.png",
-    "iframe": "http://apps.microscopejs.com:32778/",
+    "iframe": "http://apps.microscopejs.com:32780/",
     "github":"https://github.com/microscope-mobile/winjs-navbar",
     "readme":"https://raw.githubusercontent.com/microscope-mobile/winjs-navbar/master/README.md"
     
   } , {
     "id": "frontend-microscope-angular",
-    "name": "Starter frontend Microscope Angular",
+    "name": "Frontend Angular",
     "category": "frontend",
     "description": "Microscope angular application",
     "image":"angular.jpg",
@@ -70,7 +70,7 @@
     "readme":"https://raw.githubusercontent.com/microscope-frontend/microscope-angular/master/readme.md"
   }, {
     "id": "frontend-microscope-react",
-    "name": "Starter frontendjs React",
+    "name": "Frontend Backbone + React",
     "category": "frontend",
     "description": "Microscope react application",
     "image":"backbone.png",
@@ -79,13 +79,12 @@
     "readme":"https://raw.githubusercontent.com/microscope-frontend/microscope-backbone-react/master/readme.md"
   }, {
     "id": "server-web-blank",
-    "name": "Microscope-web Blank",
+    "name": "microscope-web Blank",
     "category": "server",
     "description": "Starter Microscope-web",
     "image":"mcsp2.png",
     "iframe": "http://apps.microscopejs.com:32781/",
     "github":"https://github.com/microscopejs/web-blank",
     "readme":"https://raw.githubusercontent.com/microscopejs/web-blank/master/README.md"
-  }
-  
+  } 
 ]

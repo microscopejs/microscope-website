@@ -9,14 +9,13 @@ var _$http;
  */
 function StarterkitService($http) {
 	_$http = $http;
-	
 }
 
 /**
  * Get all data
  */
 StarterkitService.prototype.getAll = function () {
-	var url = '/starterkits.json';
+	var url = 'data/starterkits.json';
 	return _$http.get(url);
 };
 
