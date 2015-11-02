@@ -5,8 +5,7 @@ function team(TeamService) {
     var directive = {
         restrict: 'EA',
         templateUrl: 'components/team/directives/team.html',
-        scope: {
-        },
+        scope: {},
         link: link
     };
             
@@ -14,11 +13,9 @@ function team(TeamService) {
      * directive view model
      */
     function link($scope, element, attrs, ctrl, transclude) {
-        
         TeamService.getAll().then(function(result){
             $scope.team = _.filter(result.data);
         });
-        
     }
 
     return directive;
