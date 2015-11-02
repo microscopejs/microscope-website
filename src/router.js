@@ -28,6 +28,10 @@ function Router($routeProvider) {
 		.when('/preview/:id', {
 			templateUrl: '/components/preview/controllers/preview.html'
 		})
+		
+		.when('/detail/:id', {
+			templateUrl: '/components/starterkit/controllers/detail.html'
+		})
 
 		.otherwise({ redirectTo: '/' });
 }

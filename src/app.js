@@ -14,6 +14,7 @@ var StartUp = require('./startUp');
 
 // Application modules
 require('./components/home/home');
+require('./components/starterkit/starterkit');
 require('./components/preview/preview');
 require('./components/docs/docs');
 require('./components/server/server');
@@ -31,7 +32,8 @@ var app = angular.module('app', [
 	'app.mobile',
 	'app.server',
 	'app.frontend',
-	'app.preview'
+	'app.preview',
+	'app.starterkit'
 ]);
 
 app.config(['$routeProvider', Router]);

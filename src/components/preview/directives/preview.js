@@ -27,8 +27,12 @@ function Preview($sce) {
             $scope.iframeClass = 'iframe-' + $scope.device;
             $scope.deviceClass = 'device-' + $scope.device;
         });
-
-        $scope.cleanUrl = $sce.trustAsResourceUrl($scope.iframeUrl);
+        $scope.$watch('iframeUrl', function () {
+               if($scope.iframeUrl){
+                   $scope.cleanUrl = $sce.trustAsResourceUrl($scope.iframeUrl);
+               }   
+        });
+       
 
         $scope.iframeLoaded = function () {
             $scope.isLoading = false;
