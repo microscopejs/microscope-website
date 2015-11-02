@@ -36,6 +36,10 @@ function Router($routeProvider) {
 		.when('/team', {
 			templateUrl: '/components/team/controllers/team.html'
 		})
+		
+		.when('/trello', {
+			templateUrl: '/components/trello/trello.html'
+		})
 
 		.otherwise({ redirectTo: '/' });
 }

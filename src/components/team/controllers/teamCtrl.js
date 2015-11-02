@@ -9,7 +9,7 @@ function TeamCtrl() {
 			"firstname": "Benjamin",
 			"email": "heintz.benjamin@gmail.com",
 			"githubLogin": "bhtz",
-			"twitterLogin": "bhtz"
+			"twitterLogin": "benjaminHTZ"
 		},
 		{
 			"lastname": "Adjadj",
@@ -36,5 +36,4 @@ function TeamCtrl() {
 
 }
 
-module.exports = TeamCtrl
-
+module.exports = TeamCtrl;

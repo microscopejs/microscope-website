@@ -22,6 +22,7 @@ require('./components/server/server');
 require('./components/mobile/mobile');
 require('./components/frontend/frontend');
 require('./components/team/team');
+require('./components/trello/trello');
 
 // Injection
 var app = angular.module('app', [
@@ -36,7 +37,8 @@ var app = angular.module('app', [
 	'app.frontend',
 	'app.preview',
 	'app.starterkit',
-	'app.team'
+	'app.team',
+	'app.trello'
 ]);
 
 app.config(['$routeProvider', Router]);

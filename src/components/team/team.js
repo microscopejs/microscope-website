@@ -13,4 +13,3 @@ team.controller('TeamCtrl', [TeamCtrl]);
 
 
 module.exports = team;
-
