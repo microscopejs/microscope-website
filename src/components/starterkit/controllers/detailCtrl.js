@@ -14,7 +14,7 @@ function DetailCtrl($routeParams,$sce,StarterkitSerice) {
 		self.starter.readme = $sce.trustAsResourceUrl(readmeUrl);
 	});
 	
-	this.device = 'iphone6plus';
+	this.device = 'iphone';
 }
 
 module.exports = DetailCtrl
