@@ -23,7 +23,8 @@
     "angular-spinner": "^0.8.0",
     "bootstrap": "^3.3.2",
     "jquery": "^2.1.3",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "microscope-ui": "git+https://github.com/microscope-frontend/microscope-ui.git"
   },
   "browserify": {
     "transform": [

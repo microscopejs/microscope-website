@@ -39,9 +39,12 @@ gulp.task('browserify:release', function(cb){
 });
 
 // assets tasks
-gulp.task('assets', function(cb){
-    return gulp.src('./assets/**')
-        .pipe(gulp.dest('./www'));
+gulp.task('assets', function(cb){  
+    gulp.src('./assets/**').pipe(gulp.dest('./www'));
+    gulp.src('./node_modules/microscope-ui/dist/css/**').pipe(gulp.dest('./www/css'));
+    gulp.src('./node_modules/microscope-ui/dist/fonts/**').pipe(gulp.dest('./www/fonts'));
+    gulp.src('./node_modules/microscope-ui/dist/js/ecofip.ui.js').pipe(gulp.dest('./www/js'));
+        
     cb();
 });
 

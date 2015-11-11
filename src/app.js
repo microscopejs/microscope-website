@@ -3,6 +3,7 @@
 // Imports
 window.jQuery = window.$ = require('jquery');
 var angular = require('angular');
+require('../node_modules/microscope-ui/dist/js/microscope.ui');
 require('bootstrap');
 require('angular-sanitize')
 require('angular-route');
