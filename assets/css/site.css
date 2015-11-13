@@ -1,3 +1,14 @@
 .navbar {
   margin-bottom: 0;
 }
+
+footer {
+  background-color: #242424;
+  color: white;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+footer h4 {
+  text-align: center;
+}
