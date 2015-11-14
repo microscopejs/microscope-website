@@ -3,7 +3,7 @@
 }
 
 footer {
-  background-color: #242424;
+  background-color: #333333;
   color: white;
   padding: 20px 0;
   margin-top: 50px;
@@ -11,4 +11,11 @@ footer {
 
 footer h4 {
   text-align: center;
+}
+
+.graypanel{
+  background-color: #333333; 
+  margin-bottom: 50px; 
+  padding: 50px; 
+  color: white;
 }
