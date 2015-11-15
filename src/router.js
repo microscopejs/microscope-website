@@ -13,7 +13,7 @@ function Router($routeProvider) {
 			templateUrl: '/components/docs/controllers/docs.html'
 		})
 
-		.when('/server', {
+		.when('/cloud', {
 			templateUrl: '/components/server/controllers/server.html'
 		})
 
