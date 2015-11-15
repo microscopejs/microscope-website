@@ -17,7 +17,7 @@ function starterkits(StarterkitService) {
     function link($scope, element, attrs, ctrl, transclude) {
         
         StarterkitService.getAll().then(function(result){
-            $scope.starters = _.filter(result.data,{'category':$scope.category});
+            $scope.starters = _.filter(result.data, {'category':$scope.category});
         });
         
     }

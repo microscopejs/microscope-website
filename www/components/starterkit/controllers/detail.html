@@ -9,18 +9,20 @@
 
       <div ng-class="{'col-md-12': vm.device == 'ipad' , 'col-md-6':vm.device != 'ipad'}" class="text-center">
 
-          <div ng-if="vm.starter.category == 'mobile'" class="btn-group" role="group" aria-label="">
-            <button type="button" ng-click="vm.device = 'iphone'" class="btn btn-default">Iphone</button>
-            <button type="button" ng-click="vm.device = 'htc'" class="btn btn-default">Htc</button>
-            <button type="button" ng-click="vm.device = 'lumia950'" class="btn btn-default">Lumia</button>
-            <button type="button" ng-click="vm.device = 'ipad'" class="btn btn-default">Ipad</button>
-          </div>   
-        <a ng-if="vm.starter.category != 'mobile'" href="{{vm.starter.iframe}}" class="btn btn-lg btn-primary">Demo</a>
+        <div ng-if="vm.starter.category == 'mobile'" class="btn-group" role="group" aria-label="">
+          <button type="button" ng-click="vm.device = 'iphone'" class="btn btn-default">Iphone</button>
+          <button type="button" ng-click="vm.device = 'htc'" class="btn btn-default">Htc</button>
+          <button type="button" ng-click="vm.device = 'lumia950'" class="btn btn-default">Lumia</button>
+          <button type="button" ng-click="vm.device = 'ipad'" class="btn btn-default">Ipad</button>
+        </div>
 
-          <preview ng-if="vm.starter.category == 'mobile'" iframe-url="vm.starter.iframe" device="vm.device">
-            <span us-spinner="{radius:30, width:8, length: 16}" spinner-on="isLoading"></span>
-          </preview>
-       
+        <a href="{{vm.starter.github}}/archive/master.zip" class="btn btn-default"><i class="fa fa-download"></i> Download</a>
+        <a ng-if="vm.starter.category != 'mobile'" href="{{vm.starter.iframe}}" class="btn btn-default"><i class="fa fa-search"></i> Demo</a>
+
+        <preview ng-if="vm.starter.category == 'mobile'" iframe-url="vm.starter.iframe" device="vm.device">
+          <span us-spinner="{radius:30, width:8, length: 16}" spinner-on="isLoading"></span>
+        </preview>
+
       </div>
     </div>
   </div>
