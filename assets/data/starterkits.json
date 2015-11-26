@@ -5,7 +5,7 @@
     "category": "mobile",
     "description": "Ionic application",
     "image": "ionic.jpg",
-    "iframe": "http://apps.microscopejs.com:32792/",
+    "iframe": "https://mcsp-mobile-ionic-blank.herokuapp.com",
     "github": "https://github.com/microscope-mobile/ionic-blank",
     "readme": "https://raw.githubusercontent.com/microscope-mobile/ionic-blank/master/README.md"
   }, 
@@ -15,7 +15,7 @@
     "category": "mobile",
     "description": "Ionic application",
     "image": "ionic.jpg",
-    "iframe": "http://apps.microscopejs.com:32794/",
+    "iframe": "https://mcsp-mobile-ionic-sidemenu.herokuapp.com",
     "github": "https://github.com/microscope-mobile/ionic-sidemenu",
     "readme": "https://raw.githubusercontent.com/microscope-mobile/ionic-sidemenu/master/README.md"
   }, 
@@ -25,7 +25,7 @@
     "category": "mobile",
     "description": "Ionic application",
     "image": "ionic.jpg",
-    "iframe": "http://apps.microscopejs.com:32790/",
+    "iframe": "https://mcsp-mobile-ionic-tabs.herokuapp.com",
     "github": "https://github.com/microscope-mobile/ionic-tabs",
     "readme": "https://raw.githubusercontent.com/microscope-mobile/ionic-tabs/master/README.md"
 
@@ -36,7 +36,7 @@
     "category": "mobile",
     "description": "Ionic application",
     "image": "ionic.jpg",
-    "iframe": "http://apps.microscopejs.com:32796/",
+    "iframe": "https://mcsp-mobile-ionic-maps.herokuapp.com",
     "github": "https://github.com/microscope-mobile/ionic-maps",
     "readme": "https://raw.githubusercontent.com/microscope-mobile/ionic-maps/master/README.md"
   }, 
@@ -46,7 +46,7 @@
     "category": "mobile",
     "description": "Ionic application",
     "image": "ionic.jpg",
-    "iframe": "http://apps.microscopejs.com:32798/",
+    "iframe": "https://mcsp-mobile-ionic-firebase.herokuapp.com",
     "github": "https://github.com/microscope-mobile/ionic-firebase",
     "readme": "https://raw.githubusercontent.com/microscope-mobile/ionic-firebase/master/README.md"
   }, 
@@ -56,7 +56,7 @@
     "category": "mobile",
     "description": "Ionic application",
     "image": "winjs.png",
-    "iframe": "http://apps.microscopejs.com:32802/",
+    "iframe": "https://mcsp-mobile-winjs-navbar.herokuapp.com",
     "github": "https://github.com/microscope-mobile/winjs-navbar",
     "readme": "https://raw.githubusercontent.com/microscope-mobile/winjs-navbar/master/README.md"
   },
@@ -66,7 +66,7 @@
     "category": "frontend",
     "description": "Microscope angular application",
     "image": "angular.jpg",
-    "iframe": "http://apps.microscopejs.com:32781",
+    "iframe": "https://microscope-frontend-angular.herokuapp.com",
     "github": "https://github.com/microscope-frontend/microscope-angular",
     "readme": "https://raw.githubusercontent.com/microscope-frontend/microscope-angular/master/readme.md"
   }, 
@@ -76,7 +76,7 @@
     "category": "frontend",
     "description": "Microscope react application",
     "image": "backbone.png",
-    "iframe": "http://apps.microscopejs.com:32782",
+    "iframe": "https://microscope-frontend-bb-react.herokuapp.com",
     "github": "https://github.com/microscope-frontend/microscope-backbone-react",
     "readme": "https://raw.githubusercontent.com/microscope-frontend/microscope-backbone-react/master/readme.md"
   }, 
@@ -86,8 +86,28 @@
     "category": "server",
     "description": "Starter Microscope-web",
     "image": "mcsp2.png",
-    "iframe": "http://apps.microscopejs.com:32780/",
+    "iframe": "https://microscope-web-blank.herokuapp.com/",
     "github": "https://github.com/microscopejs/web-blank",
     "readme": "https://raw.githubusercontent.com/microscopejs/web-blank/master/README.md"
+  }, 
+ {
+    "id": "server-web-mongo",
+    "name": "microscope-web mongoDB",
+    "category": "server",
+    "description": "Starter Microscope-web",
+    "image": "mcsp2.png",
+    "iframe": "https://microscope-web-mongo.herokuapp.com/",
+    "github": "https://github.com/microscopejs/web-mongo",
+    "readme": "https://raw.githubusercontent.com/microscopejs/web-mongo/master/README.md"
+  }, 
+ {
+    "id": "server-web-auth",
+    "name": "microscope-web Authentication",
+    "category": "server",
+    "description": "Starter Microscope-web",
+    "image": "mcsp2.png",
+    "iframe": "https://microscope-web-auth.herokuapp.com/",
+    "github": "https://github.com/microscopejs/web-auth",
+    "readme": "https://raw.githubusercontent.com/microscopejs/web-auth/master/README.md"
   }
 ]

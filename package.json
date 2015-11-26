@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "microscopejs website",
   "scripts": {
-    "start": "gulp serve",
+    "start": "http-server ./www -s",
     "test": "gulp test"
   },
   "author": "Benjamin Heintz",
@@ -22,6 +22,7 @@
     "angular-sanitize": "^1.4.3",
     "angular-spinner": "^0.8.0",
     "bootstrap": "^3.3.2",
+    "http-server": "^0.8.5",
     "jquery": "^2.1.3",
     "lodash": "^3.10.1",
     "microscope-ui": "git+https://github.com/microscope-frontend/microscope-ui.git"
