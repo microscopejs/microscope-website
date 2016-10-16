@@ -70,6 +70,16 @@
     "github": "https://github.com/microscope-frontend/microscope-angular",
     "readme": "https://raw.githubusercontent.com/microscope-frontend/microscope-angular/master/readme.md"
   }, 
+    {
+    "id": "frontend-microscope-angular2",
+    "name": "Frontend Angular 2",
+    "category": "frontend",
+    "description": "Microscope angular 2 application",
+    "image": "angular2.png",
+    "iframe": " https://microsocope-frontend-angular2.herokuapp.com/",
+    "github": "https://github.com/microscope-frontend/microscope-angular2",
+    "readme": "https://raw.githubusercontent.com/microscope-frontend/microscope-angular2/master/readme.md"
+  }, 
  {
     "id": "frontend-microscope-react",
     "name": "Frontend Backbone + React",
